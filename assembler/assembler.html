@@ -1,0 +1,9 @@
+<html>
+	<body>
+		<textarea id="code" cols="50" rows="10"></textarea>
+		<button onclick="assembler.assembleCode(document.getElementById('code').value)">Assemble</button>
+		<button onclick="downloadMem()">Download .bin</button>
+		<ul id="messages"></ul>
+		<script src="assembler.js"></script>
+	</body>
+</html>
