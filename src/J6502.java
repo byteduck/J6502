@@ -10,6 +10,5 @@ public class J6502{
 			cpu.cycle();
 			screen.repaint();
 		}
-		System.out.println("mem: "+cpu.getA());
 	}
 }
